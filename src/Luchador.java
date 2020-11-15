@@ -13,7 +13,7 @@ public class Luchador extends Thread {
             int duracion = new Random().nextInt(6000) + 1000;
             System.out.println("Luchador " + getName() + " entre al CUADRILATERO " + duracion);
             sleep(duracion);
-            System.out.println("¡¡¡¡¡¡ME PEGAN!!!!!!! ¡fuck! " + getName() + " ¡ me han tocado y hundido !");
+            System.out.println("¡¡¡¡¡¡ME PEGAN!!!!!!! ¡its a trap! " + getName() + " ¡ me han tocado y hundido !");
             cuadrilatero.descalificadoLucha(this);
         } catch (InterruptedException e) {
             e.printStackTrace();
